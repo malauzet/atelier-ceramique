@@ -140,6 +140,7 @@ main {
 
 .card-body {
     background-color: var(--accent-bg-body);
+    height: 25vh;
 }
 
 .card-body > i {
@@ -147,10 +148,38 @@ main {
 }
 
 /**************** Selection ****************/
-.img-selection {
-    border-radius: 10px;
+/* .img-selection {
+    border-radius: 20px; <!-- moche avec colmd3 -->
     width: 100%;
     height: auto;
+} */
+
+.selec-div {
+    padding-top: 2rem;
+}
+
+.selec-div > p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.selec-btn {
+    display: inline-block;
+    padding: .75rem 2.2rem;
+    border: 1px solid var(--muted-light-bronze);
+    border-radius: 6px;
+    color: var(--accent-mauve-bark);
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .25s, color .25s;
+    background-color: var(--accent-bg-body);
+}
+
+.selec-btn:hover {
+    background: var(--muted-light-bronze);
+    color: var(--accent-mauve-bark);
 }
 
 /**************** Footer ****************/
