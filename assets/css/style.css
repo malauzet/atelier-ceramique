@@ -225,6 +225,7 @@ main {
 
 main {
     color: var(--accent-mauve-bark);
+    overflow-x: hidden;
 }
 
 main a, footer a {
