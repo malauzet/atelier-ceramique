@@ -13,7 +13,6 @@
     --muted-light-bronze: #e2ac79;
     --mauve-bark: #654236;
     --white-ish: #faf5f5;
-    --chocolate: #da7635;
     --accent-mauve-bark: #35231D;
 }
 
@@ -182,6 +181,62 @@ main {
     color: var(--accent-mauve-bark);
 }
 
+/**************** Contact ****************/
+.btn-outline-primary {
+    color: var(--accent-mauve-bark) !important;
+    border: solid 2px var(--muted-light-bronze) !important;
+}
+
+.btn-outline-primary:hover {
+    color: var(--accent-mauve-bark) !important;
+    background-color: var(--muted-light-bronze) !important;
+}
+
+.outline {
+    outline: solid var(--light-bronze);
+    padding: 20px;
+}
+
+.form-control:focus {
+    border-color: var(--accent-mauve-bark) !important;
+    box-shadow: none !important;
+}
+
+.form-select:focus {
+    border-color: var(--accent-mauve-bark) !important;
+    box-shadow: none !important;
+}
+
+.form-check-input:focus {
+    border-color: var(--accent-mauve-bark) !important;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    border-color: var(--accent-mauve-bark) !important;
+    box-shadow: none !important;
+    background-color: var(--muted-light-bronze) !important;
+}
+
+.infos {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+main {
+    color: var(--accent-mauve-bark);
+}
+
+main a, footer a {
+    color: var(--mauve-bark);
+    text-decoration: none;
+    transition: color .2s;
+}
+
+main a:hover {
+    color: var(--accent-mauve-bark);
+}
+
 /**************** Footer ****************/
 
 footer {
@@ -189,11 +244,11 @@ footer {
     color: var(--mauve-bark);
 }
 
-footer a {
+/* footer a {
     color: var(--mauve-bark);
     text-decoration: none;
     transition: color .2s;
-}
+} */
 
 footer a:hover {
     color: var(--accent-bg-body);
