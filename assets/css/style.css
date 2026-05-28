@@ -16,11 +16,83 @@
     --accent-mauve-bark: #35231D;
 }
 
+/* Navigation */
 #navi {
     background-color: var(--light-bronze);
 }
 
+/* Hero  */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+/* Image de fond */
+.hero-img {
+    position: absolute;
+    inset: 0; /* positionne l'élément*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
+/* Overlay sombre */
+.hero-overlay {
+    position: absolute;
+    inset: 0; /* positionne l'élément*/
+    background: rgba(20, 12, 8, 0.45);
+}
+
+/* Contenu centré */
+.hero-content {
+    position: relative;
+    z-index: 1; /* Au dessus de l'image + overlay */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: var(--white-ish);
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white-ish);
+    max-width: 450px; /* Pour un subtitle en 2 lignes */
+    margin-bottom: 2.5rem;
+}
+
+.hero-cta {
+    display: inline-block;
+    padding: .75rem 2.2rem;
+    border: 1px solid var(--muted-light-bronze);
+    color: var(--white-ish);
+    font-weight: 400;
+    font-size: .8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .25s, color .25s;
+}
+
+.hero-cta:hover {
+    background: var(--muted-light-bronze);
+    color: var(--accent-mauve-bark);
+}
+
+.apropos-img {
+    height: 200px;
+    width: 300px;
+}
 
 footer {
     background-color: var(--light-bronze);
