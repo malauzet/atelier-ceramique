@@ -7,17 +7,29 @@
 
 /**************** Root ****************/
 :root {
+    --white-ish: #faf5f5;
     --bg-body: #f8eade;
     --accent-bg-body: #f4e0cd;
     --light-bronze: #e2ac79;
-    --mauve-bark: #654236;
-    --white-ish: #faf5f5;
     --accent-mauve-bark: #35231D;
 }
 
 /**************** Navigation ****************/
 #navi {
     background-color: var(--light-bronze);
+}
+
+.navbar-brand, .active {
+    color: var(--accent-mauve-bark) !important;
+    font-weight: 600 !important;
+}
+
+.nav-link {
+    color: var(--accent-mauve-bark) !important;
+}
+
+.nav-link:hover {
+    color: var(--white-ish) !important;
 }
 
 /**************** Hero ****************/
@@ -184,6 +196,7 @@ main {
 .btn-outline-primary {
     color: var(--accent-mauve-bark) !important;
     border: solid 2px var(--light-bronze) !important;
+    background-color: var(--accent-bg-body) !important;
 }
 
 .btn-outline-primary:hover {
@@ -228,7 +241,7 @@ main {
 }
 
 main a, footer a {
-    color: var(--mauve-bark);
+    color: var(--accent-mauve-bark);
     text-decoration: none;
     transition: color .2s;
 }
@@ -241,17 +254,17 @@ main a:hover {
 
 footer {
     background-color: var(--light-bronze);
-    color: var(--mauve-bark);
+    color: var(--accent-mauve-bark);
 }
 
 /* footer a {
-    color: var(--mauve-bark);
+    color: var(--accent-mauve-bark);
     text-decoration: none;
     transition: color .2s;
 } */
 
 footer a:hover {
-    color: var(--accent-bg-body);
+    color: var(--white-ish);
 }
 
 .col-title {
@@ -267,12 +280,12 @@ footer a:hover {
     justify-content: center;
     width: 38px;
     height: 38px;
-    border: 1px solid var(--mauve-bark);
+    border: 1px solid var(--accent-mauve-bark);
     border-radius: 6px;
     font-size: 1.1rem;
     transition: border-color .2s, color .2s;
 }
 
 .social-icon:hover {
-    border-color: var(--accent-bg-body);
+    border-color: var(--white-ish);
 }
