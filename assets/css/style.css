@@ -8,10 +8,10 @@
 /**************** Root ****************/
 :root {
     --bg-body: #f8eade;
+    --accent-bg-body: #f4e0cd;
     --light-bronze: #e2ac79;
     --muted-light-bronze: #e2ac79;
     --mauve-bark: #654236;
-    --vannila-custard: #d6d4a0;
     --white-ish: #faf5f5;
     --chocolate: #da7635;
     --accent-mauve-bark: #35231D;
@@ -81,6 +81,7 @@
     display: inline-block;
     padding: .75rem 2.2rem;
     border: 1px solid var(--muted-light-bronze);
+    border-radius: 6px;
     color: var(--white-ish);
     font-weight: 400;
     font-size: .8rem;
@@ -89,14 +90,9 @@
     transition: background .25s, color .25s;
 }
 
-.hero-cta:hover {
+.hero-btn:hover {
     background: var(--muted-light-bronze);
     color: var(--accent-mauve-bark);
-}
-
-.apropos-img {
-    height: 200px;
-    width: 300px;
 }
 
 /**************** Main ****************/
@@ -104,11 +100,12 @@ main {
     background-color: var(--bg-body);
 }
 
+.section {
+    padding: 3rem 0;
+    color: var(--accent-mauve-bark);
+}
 
 /**************** About ****************/
-.about-section {
-    padding: 3rem;
-}
 
 .about-section h2 {
     font-size: 1.5rem;
@@ -136,6 +133,19 @@ main {
     margin-top: 1.5rem;
 }
 
+/**************** Values ****************/
+.value-text, .value-title, .card-body > i {
+    color: var(--accent-mauve-bark);
+}
+
+.card-body {
+    background-color: var(--accent-bg-body);
+}
+
+.card-body > i {
+    font-size: 3em;
+}
+
 /**************** Footer ****************/
 
 footer {
@@ -150,7 +160,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--vannila-custard);
+    color: var(--accent-bg-body);
 }
 
 .col-title {
@@ -173,5 +183,5 @@ footer a:hover {
 }
 
 .social-icon:hover {
-    border-color: var(--vannila-custard);
+    border-color: var(--accent-bg-body);
 }
