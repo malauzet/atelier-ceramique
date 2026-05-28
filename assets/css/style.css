@@ -1,12 +1,13 @@
-*,
-*::before,
-*::after {
+/**************** Reset ****************/
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/**************** Root ****************/
 :root {
+    --bg-body: #f8eade;
     --light-bronze: #e2ac79;
     --muted-light-bronze: #e2ac79;
     --mauve-bark: #654236;
@@ -16,21 +17,23 @@
     --accent-mauve-bark: #35231D;
 }
 
-/* Navigation */
+/**************** Navigation ****************/
 #navi {
     background-color: var(--light-bronze);
 }
 
-/* Hero  */
+/**************** Hero ****************/
 .hero {
     position: relative;
     width: 100%;
     height: 60vh;
 }
+
 /* Image de fond */
 .hero-img {
     position: absolute;
-    inset: 0; /* positionne l'élément*/
+    inset: 0;
+    /* positionne l'élément*/
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -40,14 +43,15 @@
 /* Overlay sombre */
 .hero-overlay {
     position: absolute;
-    inset: 0; /* positionne l'élément*/
+    inset: 0;
+    /* positionne l'élément*/
     background: rgba(20, 12, 8, 0.45);
 }
 
-/* Contenu centré */
 .hero-content {
     position: relative;
-    z-index: 1; /* Au dessus de l'image + overlay */
+    z-index: 1;
+    /* Au dessus de l'image + overlay */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -68,11 +72,12 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: var(--white-ish);
-    max-width: 450px; /* Pour un subtitle en 2 lignes */
+    max-width: 450px;
+    /* Pour un subtitle en 2 lignes */
     margin-bottom: 2.5rem;
 }
 
-.hero-cta {
+.hero-btn {
     display: inline-block;
     padding: .75rem 2.2rem;
     border: 1px solid var(--muted-light-bronze);
@@ -93,6 +98,45 @@
     height: 200px;
     width: 300px;
 }
+
+/**************** Main ****************/
+main {
+    background-color: var(--bg-body);
+}
+
+
+/**************** About ****************/
+.about-section {
+    padding: 3rem;
+}
+
+.about-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--accent-mauve-bark);
+}
+
+.about-img {
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--accent-mauve-bark);
+}
+
+.about-text p+p {
+    margin-top: 1.5rem;
+}
+
+/**************** Footer ****************/
 
 footer {
     background-color: var(--light-bronze);
