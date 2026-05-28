@@ -10,22 +10,22 @@
     --white-ish: #faf5f5;
     --bg-body: #f8eade;
     --accent-bg-body: #f4e0cd;
-    --light-bronze: #e2ac79;
-    --accent-mauve-bark: #35231D;
+    --bg-nav-ft-btn: #e2ac79;
+    --primary-txt-i: #35231D;
 }
 
 /**************** Navigation ****************/
 #navi {
-    background-color: var(--light-bronze);
+    background-color: var(--bg-nav-ft-btn);
 }
 
 .navbar-brand, .active {
-    color: var(--accent-mauve-bark) !important;
+    color: var(--primary-txt-i) !important;
     font-weight: 600 !important;
 }
 
 .nav-link {
-    color: var(--accent-mauve-bark) !important;
+    color: var(--primary-txt-i) !important;
 }
 
 .nav-link:hover {
@@ -90,7 +90,7 @@
 .hero-btn {
     display: inline-block;
     padding: .75rem 2.2rem;
-    border: 1px solid var(--light-bronze);
+    border: 1px solid var(--bg-nav-ft-btn);
     border-radius: 6px;
     color: var(--white-ish);
     font-weight: 400;
@@ -101,8 +101,8 @@
 }
 
 .hero-btn:hover {
-    background: var(--light-bronze);
-    color: var(--accent-mauve-bark);
+    background: var(--bg-nav-ft-btn);
+    color: var(--primary-txt-i);
 }
 
 /**************** Main ****************/
@@ -112,7 +112,7 @@ main {
 
 .section {
     padding: 3rem 0;
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 /**************** About ****************/
@@ -121,7 +121,7 @@ main {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 .about-img {
@@ -136,7 +136,7 @@ main {
 .about-text p {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 .about-text p+p {
@@ -145,7 +145,7 @@ main {
 
 /**************** Values ****************/
 .value-text, .value-title, .card-body > i {
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 .card-body {
@@ -176,9 +176,9 @@ main {
 .selec-btn {
     display: inline-block;
     padding: .75rem 2.2rem;
-    border: 1px solid var(--light-bronze);
+    border: 1px solid var(--bg-nav-ft-btn);
     border-radius: 6px;
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
     font-weight: 400;
     font-size: 1rem;
     text-transform: uppercase;
@@ -188,46 +188,46 @@ main {
 }
 
 .selec-btn:hover {
-    background: var(--light-bronze);
-    color: var(--accent-mauve-bark);
+    background: var(--bg-nav-ft-btn);
+    color: var(--primary-txt-i);
 }
 
 /**************** Contact ****************/
 .btn-outline-primary {
-    color: var(--accent-mauve-bark) !important;
-    border: solid 2px var(--light-bronze) !important;
+    color: var(--primary-txt-i) !important;
+    border: solid 2px var(--bg-nav-ft-btn) !important;
     background-color: var(--accent-bg-body) !important;
 }
 
 .btn-outline-primary:hover {
-    color: var(--accent-mauve-bark) !important;
-    background-color: var(--light-bronze) !important;
+    color: var(--primary-txt-i) !important;
+    background-color: var(--bg-nav-ft-btn) !important;
 }
 
 .outline {
-    outline: solid var(--light-bronze);
+    outline: solid var(--bg-nav-ft-btn);
     padding: 20px;
 }
 
 .form-control:focus {
-    border-color: var(--accent-mauve-bark) !important;
+    border-color: var(--primary-txt-i) !important;
     box-shadow: none !important;
 }
 
 .form-select:focus {
-    border-color: var(--accent-mauve-bark) !important;
+    border-color: var(--primary-txt-i) !important;
     box-shadow: none !important;
 }
 
 .form-check-input:focus {
-    border-color: var(--accent-mauve-bark) !important;
+    border-color: var(--primary-txt-i) !important;
     box-shadow: none !important;
 }
 
 .form-check-input:checked {
-    border-color: var(--accent-mauve-bark) !important;
+    border-color: var(--primary-txt-i) !important;
     box-shadow: none !important;
-    background-color: var(--light-bronze) !important;
+    background-color: var(--bg-nav-ft-btn) !important;
 }
 
 .infos {
@@ -236,29 +236,29 @@ main {
 }
 
 main {
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
     overflow-x: hidden;
 }
 
 main a, footer a {
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
     text-decoration: none;
     transition: color .2s;
 }
 
 main a:hover {
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 /**************** Footer ****************/
 
 footer {
-    background-color: var(--light-bronze);
-    color: var(--accent-mauve-bark);
+    background-color: var(--bg-nav-ft-btn);
+    color: var(--primary-txt-i);
 }
 
 /* footer a {
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
     text-decoration: none;
     transition: color .2s;
 } */
@@ -271,7 +271,7 @@ footer a:hover {
     font-weight: 600;
     font-size: 1.1rem;
     margin-bottom: .5rem;
-    color: var(--accent-mauve-bark);
+    color: var(--primary-txt-i);
 }
 
 .social-icon {
@@ -280,7 +280,7 @@ footer a:hover {
     justify-content: center;
     width: 38px;
     height: 38px;
-    border: 1px solid var(--accent-mauve-bark);
+    border: 1px solid var(--primary-txt-i);
     border-radius: 6px;
     font-size: 1.1rem;
     transition: border-color .2s, color .2s;
