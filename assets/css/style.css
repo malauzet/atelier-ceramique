@@ -10,7 +10,6 @@
     --bg-body: #f8eade;
     --accent-bg-body: #f4e0cd;
     --light-bronze: #e2ac79;
-    --muted-light-bronze: #e2ac79;
     --mauve-bark: #654236;
     --white-ish: #faf5f5;
     --accent-mauve-bark: #35231D;
@@ -79,7 +78,7 @@
 .hero-btn {
     display: inline-block;
     padding: .75rem 2.2rem;
-    border: 1px solid var(--muted-light-bronze);
+    border: 1px solid var(--light-bronze);
     border-radius: 6px;
     color: var(--white-ish);
     font-weight: 400;
@@ -90,7 +89,7 @@
 }
 
 .hero-btn:hover {
-    background: var(--muted-light-bronze);
+    background: var(--light-bronze);
     color: var(--accent-mauve-bark);
 }
 
@@ -165,7 +164,7 @@ main {
 .selec-btn {
     display: inline-block;
     padding: .75rem 2.2rem;
-    border: 1px solid var(--muted-light-bronze);
+    border: 1px solid var(--light-bronze);
     border-radius: 6px;
     color: var(--accent-mauve-bark);
     font-weight: 400;
@@ -177,19 +176,19 @@ main {
 }
 
 .selec-btn:hover {
-    background: var(--muted-light-bronze);
+    background: var(--light-bronze);
     color: var(--accent-mauve-bark);
 }
 
 /**************** Contact ****************/
 .btn-outline-primary {
     color: var(--accent-mauve-bark) !important;
-    border: solid 2px var(--muted-light-bronze) !important;
+    border: solid 2px var(--light-bronze) !important;
 }
 
 .btn-outline-primary:hover {
     color: var(--accent-mauve-bark) !important;
-    background-color: var(--muted-light-bronze) !important;
+    background-color: var(--light-bronze) !important;
 }
 
 .outline {
@@ -215,7 +214,7 @@ main {
 .form-check-input:checked {
     border-color: var(--accent-mauve-bark) !important;
     box-shadow: none !important;
-    background-color: var(--muted-light-bronze) !important;
+    background-color: var(--light-bronze) !important;
 }
 
 .infos {
