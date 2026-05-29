@@ -306,7 +306,7 @@ footer a {
 }
 
 main a:hover {
-    color: var(--primary-txt-i);
+    color: var(--bg-nav-ft-btn);
 }
 
 /**************** Footer ****************/
