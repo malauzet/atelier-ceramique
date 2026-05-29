@@ -1,3 +1,6 @@
+/**************** Font ****************/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 /**************** Reset ****************/
 *,
 *::before,
@@ -44,18 +47,17 @@ body .selec-div > h3 {
     background-color: var(--bg-nav-ft-btn);
 }
 
-.navbar-brand,
-.active {
-    color: var(--primary-txt-i) !important;
-    font-weight: 600 !important;
+.navbar-brand, .active {
+    color: var(--primary-txt-i);
+    font-weight: 600;
 }
 
 .nav-link {
-    color: var(--primary-txt-i) !important;
+    color: var(--primary-txt-i);
 }
 
 .nav-link:hover {
-    color: var(--white-ish) !important;
+    color: var(--white-ish);
 }
 
 /**************** Hero ****************/
@@ -164,9 +166,7 @@ main {
 }
 
 /**************** Values ****************/
-.value-text,
-.value-title,
-.card-body>i {
+.value-text, .value-title, .card-body>i {
     color: var(--primary-txt-i);
 }
 
@@ -183,9 +183,7 @@ main {
 .img-selection {
     width: 100%;
     height: 250px;
-    /* hauteur fixe identique pour toutes */
     object-fit: cover;
-    /* recadre sans déformer */
     object-position: center;
     display: block;
     border-radius: 4px;
@@ -252,14 +250,14 @@ main {
 
 /**************** Contact ****************/
 .btn-outline-primary {
-    color: var(--primary-txt-i) !important;
-    border: solid 2px var(--bg-nav-ft-btn) !important;
-    background-color: var(--accent-bg-body) !important;
+    color: var(--primary-txt-i);
+    border: solid 2px var(--bg-nav-ft-btn);
+    background-color: var(--accent-bg-body);
 }
 
 .btn-outline-primary:hover {
-    color: var(--primary-txt-i) !important;
-    background-color: var(--bg-nav-ft-btn) !important;
+    border-color: var(--bg-nav-ft-btn);
+    background-color: var(--bg-nav-ft-btn);
 }
 
 .outline {
@@ -272,25 +270,13 @@ main {
     color: red;
 }
 
-.form-control:focus {
-    border-color: var(--primary-txt-i) !important;
-    box-shadow: none !important;
-}
-
-.form-select:focus {
-    border-color: var(--primary-txt-i) !important;
-    box-shadow: none !important;
-}
-
-.form-check-input:focus {
-    border-color: var(--primary-txt-i) !important;
-    box-shadow: none !important;
+.form-control:focus, .form-select:focus,.form-check-input:focus , .form-check-input:checked {
+    border-color: var(--primary-txt-i);
+    box-shadow: 0 0 5px var(--primary-txt-i);
 }
 
 .form-check-input:checked {
-    border-color: var(--primary-txt-i) !important;
-    box-shadow: none !important;
-    background-color: var(--bg-nav-ft-btn) !important;
+    background-color: var(--bg-nav-ft-btn);
 }
 
 main {
