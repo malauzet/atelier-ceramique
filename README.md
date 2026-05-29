@@ -1,10 +1,16 @@
-# Site internet - Atelier Céramique Lyon
+# TP - Site web: Atelier Céramique Lyon
 
-## Architecture du site
+## Sommaire
 
- - [Accueil](#Page-d'accueil)
- - [Galerie](#Page-galerie)
- - [Contact](#Page-contact)
+ - [Le site](#Le-site)
+    - [Accueil](#Page-d'accueil)
+    -  [Galerie](#Page-galerie) 
+    - [Contact](#Page-contact)
+ - [Chartre graphique](#Chartre-graphique)
+	 - [Couleurs](#Couleurs)
+	 - [Polices & Tailles](#Polices-&-Tailles)
+
+## Le site
 
 ### Page d'accueil
 
@@ -42,13 +48,21 @@ Une section à droite donnant plus d'informations sur le lieu est aussi présent
 
 ![#35231d](https://raw.githubusercontent.com/gist/malauzet/b6740211ef93c1f643f5dba35eadc2e1/raw/fa36cc239d758deb344979bc80b9ca78431231ea/35231d.svg) `#35231d` Utilisé pour le texte et les icons.
 
-### Polices
+### Polices & Tailles
 
-#### Fonts
+Tableaux récapitulatifs de l'utilistation des polices et de leurs tailles.
 
-#### Tailles sur page (hors Header/Hero/Footer)
-|Élément|HTML Tag  | Valeur |
-|-------|:----------:|:--------:|
-| Titre |    h1    | 2.5em  |
-| Titre r2 |    h2    | 1.5em  |
-| Text |    p    | 1rem  |
+
+|  Police  |   Éléments   | HTML Tag |
+|----------|:------------:|:----------:|
+|Bree Serif|    Titres    | h1, h2, h3 |
+|  Domine  | Texte, Liens |    p, a    |
+
+---
+
+| Éléments |HTML Tag  | Valeur |
+|----------|:----------:|:--------:|
+|   Titre  |     h1     |  2.5em   |
+| Titre r2 |     h2     |  1.5em   |
+|   Texte  |     p      |   1rem   |
+*Tailles sur page (hors Header/Hero/Footer)*
