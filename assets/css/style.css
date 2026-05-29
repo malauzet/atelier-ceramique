@@ -16,6 +16,12 @@
     --primary-txt-i: #35231D;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /**************** Navigation ****************/
 #navi {
     background-color: var(--bg-nav-ft-btn);
@@ -112,6 +118,7 @@
 
 /**************** Main ****************/
 main {
+    flex: 1;
     background-color: var(--bg-body);
 }
 
@@ -221,6 +228,11 @@ main {
     padding: 20px;
 }
 
+.required::after {
+    content:" *";
+    color: red;
+}
+
 .form-control:focus {
     border-color: var(--primary-txt-i) !important;
     box-shadow: none !important;
@@ -303,6 +315,6 @@ footer a:hover {
     border-color: var(--white-ish);
 }
 
-div > .border-top {
+div>.border-top {
     border-color: var(--primary-txt-i) !important;
 }
