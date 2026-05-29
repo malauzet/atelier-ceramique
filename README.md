@@ -3,7 +3,7 @@
 ## Sommaire
 
  - [Le site](#Le-site)
-    - [Accueil](#Page-d'accueil)
+    - [Accueil](#Page-accueil)
     -  [Galerie](#Page-galerie) 
     - [Contact](#Page-contact)
  - [Chartre graphique](#Chartre-graphique)
@@ -12,7 +12,7 @@
 
 ## Le site
 
-### Page d'accueil
+### Page accueil
 
 La page d'accueil contient un héro avec de légères informations sur l'atelier ainsi qu'un bouton renvoyant vers la gallerie.
 
