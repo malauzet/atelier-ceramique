@@ -263,7 +263,7 @@ main {
     background-color: var(--accent-bg-body);
 }
 
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn:first-child:active {
     border-color: var(--bg-nav-ft-btn);
     background-color: var(--bg-nav-ft-btn);
 }
