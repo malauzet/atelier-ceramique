@@ -10,7 +10,7 @@
 	- [Contact](#Contact)
 - [Chartre graphique](#Chartre-graphique)
   - [Couleurs](#Couleurs)
-  - [Polices & Tailles](#Polices-&-Tailles)
+  - [Polices & Tailles](#Polices-et-Tailles)
 - [Choix techniques personnels](#Choix-techniques-personnels)
 	- [Structure](#Structure)
 	- [Implémentation](#Implémentation)
@@ -68,7 +68,7 @@ Une section à droite donnant plus d'informations sur le lieu est aussi présent
 
 ![#35231d](https://raw.githubusercontent.com/gist/malauzet/b6740211ef93c1f643f5dba35eadc2e1/raw/fa36cc239d758deb344979bc80b9ca78431231ea/35231d.svg)  `#35231d` Utilisé pour le texte et les icons.
 
-### Polices & Tailles
+### Polices et Tailles
 
 Tableaux récapitulatifs de l'utilistation des polices et de leurs tailles.
 
