@@ -65,4 +65,5 @@ Tableaux récapitulatifs de l'utilistation des polices et de leurs tailles.
 |   Titre  |     h1     |  2.5em   |
 | Titre r2 |     h2     |  1.5em   |
 |   Texte  |     p      |   1rem   |
+
 *Tailles sur page (hors Header/Hero/Footer)*
