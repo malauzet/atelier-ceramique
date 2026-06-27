@@ -1,7 +1,5 @@
 # TP - Site web: Atelier Céramique Lyon
 
-  
-
 ## Sommaire
 
 - [Le site](#Le-site)
@@ -105,7 +103,7 @@ Je n'ai pas beaucoup changé la mise en page du site par rapport aux maquettes d
 ### Remarques
 
  1. Bootstrap est très embêtant à personnaliser en l'important via un lien externe.
- 2. Tuoujours mettre sa propre feuille de style en dernier pour éviter les ```!important```.
+ 2. Toujours mettre sa propre feuille de style en dernier pour éviter les ```!important```.
 
 ### Améliorations
 
